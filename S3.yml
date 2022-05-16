@@ -1,0 +1,13 @@
+#creation of simple s3 bucket
+---
+  - name: creation of s3 bucket
+    hosts: localhost
+    tasks:
+    - name: aws S3
+      s3_bucket:
+        name: mybcktrial
+        state: present
+        region: ap-south-1
+        versioning: no
+        aws_access_key: AKIAQSPVDP4JSZWA6VQX
+        aws_secret_key: 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
