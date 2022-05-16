@@ -9,5 +9,4 @@
         state: present
         region: ap-south-1
         versioning: no
-        aws_access_key: AKIAQSPVDP4JSZWA6VQX
-        aws_secret_key: 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
+      
